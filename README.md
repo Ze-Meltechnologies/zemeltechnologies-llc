@@ -3,7 +3,7 @@
 This is the official site for ZEMELTECHNOLOGIES LLC<br>
 <img src="./img/zee1.png">
 
-<a href="https://zemeltechnologies.me">VISIT THE WEBSITE FOR MORE INFOMATION</a>
+<a href="https://www.zemeltechnologies.me">VISIT THE WEBSITE FOR MORE INFOMATION</a>
 
 <h1>OUR BRIEF</h1>
 <p>WE ARE A TEAM OF EXPERTS IN THE TECH INDUSTRY</p>
