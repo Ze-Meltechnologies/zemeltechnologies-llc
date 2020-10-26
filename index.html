@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-
+<!--JQuery-->   
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>   
+<!--Floating WhatsApp css-->   
+<link rel="stylesheet" href="floating-wpp.min.css">   
+<!--Floating WhatsApp javascript-->   
+    <script type="text/javascript" src="floating-wpp.min.js"></script>
 </head>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
@@ -350,8 +355,9 @@
                     <div class="icon"><img src="./img/post128.png" /></div>
                     <div class="contact-info">
                         <h1>Email Us :</h1>
-                        <p><b>info@zemeltechnologies.tech</b></p>
-                        <p><b>zemeltechnologies.tech@gmail.com</b></p>
+                        <p><b>info@zemeltechnologies.com</b></p>
+                        <p><b>melchizedeck@zemeltechnologies.com</b></p>
+                        <p><b>admin@zemeltechnologies.com</b></p>
                     </div>
                 </div>
                 <div class="contact-item">
@@ -376,13 +382,30 @@
 
     <footer class="special-color-dark" style="background-color: #880000">
         <!-- Grid row -->
+        <!--Div where the WhatsApp will be rendered-->   
+<div id="WAButton"></div>   
+        <script type="text/javascript">   
+   $(function () { 
+           $('#WAButton').floatingWhatsApp({ 
+               phone: '+254786292373', //WhatsApp Business phone number 
+               headerTitle: 'Chat with us on WhatsApp!', //Popup Title 
+               popupMessage: 'Hello, how can we help you?', //Popup Message 
+               showPopup: true, //Enables popup display 
+               buttonImage: '<img src="whatsapp.svg" />', //Button Image 
+               //headerColor: 'crimson', //Custom header color 
+               //backgroundColor: 'crimson', //Custom background button color 
+               position: "left" //Position: left | right 
+ 
+           }); 
+       }); 
+</script>   
         <div class="row d-flex align-items-center ">
             <hr class="thick">
 
             <div class="col-md-7 col-lg-8">
                 <!--Copyright-->
                 <p class="text-center text-md-left py-3">
-                    <b> &COPY; ZEMELTECHNOLOGIES LLC 2020. ALL RIGHTS
+                    <b> &COPY; ZEMELTECHNOLOGIES LLC GROUP 2020. ALL RIGHTS
                     RESERVED </b> DESIGNED BY: <a href="https://www.zemeltechnologies.me"><b>ZEMELTECHNOLOGIES LLC GROUP &trade;</b></a> </p>
             </div>
 
