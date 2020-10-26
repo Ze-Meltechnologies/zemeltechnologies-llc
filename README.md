@@ -14,5 +14,5 @@ This is the official site for ZEMELTECHNOLOGIES LLC<br>
 
 
 <p>CONTACT US THROUGH OUR OFFICIAL EMAIL ADDRESS BELOW FOR ANY BUSINESS</P>
-<p>EMAIL US : info@zemeltechnologies.tech</p><br><p>admin@zemeltechnologies.tech</p>
+<p>EMAIL US : info@zemeltechnologies.com</p><br><p>melchizedeck@zemeltechnologies.com</p>
 </b>
