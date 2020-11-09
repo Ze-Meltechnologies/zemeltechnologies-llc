@@ -74,6 +74,23 @@ p {
     background-color: crimson;
 }
 
+.wat{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+.wat:hover{
+    color: #ffffff;
+    background-color: #880000;
+}
 .brand h1 {
     font-size: 3rem;
     text-transform: uppercase;
